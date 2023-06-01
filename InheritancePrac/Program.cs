@@ -14,18 +14,11 @@ namespace InheritancePrac
                 new Cat(), new Cat(), new Cat() };
 
 
-            foreach (var item in Dogs)
+            foreach (var item in Animals)
             {
                 item.Eat();
                 item.Sleep();
-                item.Bark();
-            }
-
-            foreach (var item in Cats)
-            {
-                item.Eat();
-                item.Sleep();
-                item.Meow();
+                //((Dog)item).Bark();
             }
         }
     }

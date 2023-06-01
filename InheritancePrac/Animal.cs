@@ -3,6 +3,7 @@ namespace InheritancePrac
 {
     public class Animal
     {
+        public Animal() {  this.Age = 0; }
         public int Age { get; set; }
 
         public void Eat()
@@ -10,19 +11,11 @@ namespace InheritancePrac
             Console.WriteLine("냠냠");
         }
 
-        public void Eat()
-        {
-            Console.WriteLine("냠냠");
-        }
 
         public void Sleep()
         {
             Console.WriteLine("쿨쿨");
         }
 
-        public void Sleep()
-        {
-            Console.WriteLine("쿨쿨");
-        }
     }
 }
