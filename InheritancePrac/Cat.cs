@@ -4,7 +4,11 @@ namespace InheritancePrac
 {
     public class Cat : Animal
     {
-        public Cat() { this.Age = 0; }
+        public Cat() { }
+
+        public Cat(int age) : base(age) { 
+
+        }
 
         public void Meow()
         {
